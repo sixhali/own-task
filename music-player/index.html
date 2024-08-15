@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="music-container isPlay">
+        <img src="" alt="" id="music-img">
+        <audio src="" id="audio"></audio>
+        <div class="music-detalis">
+            <p class="title"></p>
+            <p class="singer"></p>
+        </div>
+        <div class="progress">
+            <input type="range" name="" id="progress-barr">
+            <div class="progress-barr-Time">
+                <span id="first-time">0.00</span>
+                <span id="last-time">0.00</span>
+            </div>
+
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-caret-left"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+        <div class="voice-control">
+            <i class="fa-solid fa-volume-high volume"></i>
+            <input type="range" name="" id="progress-barr-voice" max="100" value="100">
+        </div>
+        <!-- <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+
+        </div> -->
+
+        
+
+    </div>
+    
+
+
+    <script src="music.js"></script>
+    <script src="musicPlayer.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
